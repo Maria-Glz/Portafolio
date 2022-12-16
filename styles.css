@@ -25,6 +25,7 @@ body{
 .container
 {
   background-color: black;
+
 }
 hr
 {
@@ -34,5 +35,41 @@ hr
 }
 p
 {
-   color: antiquewhite;
+   color: white;
 }
+.sobremi
+{
+   text-align: center;
+   margin-left: 190px;
+   margin-right: 190px;
+}
+.list-group
+{
+   margin-left: 460px;
+   margin-right: 460px;
+}
+
+.breadcrumb{
+   margin-left: 190px;
+   margin-right: 190px;
+}
+.breadcrumb2{
+   margin-left: 300px;
+   margin-right: 300px;
+}
+.acordion{
+   display: flex;
+   width: 80%;
+   
+}
+ .row
+{
+  display: flex;
+  margin-left: 575px;
+  margin-top: -145px;
+  position: relative;
+}
+.row2{
+  margin-left: 80px;
+} 
+

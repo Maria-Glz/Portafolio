@@ -11,20 +11,24 @@
 </head>
 <body>
 
-          <!-----Encabezado------>
-<div class="container" style="text-align: center; border: 1px solid rgb(12, 12, 12);">
+          <!-----Cuerpo------>
+<div class="container" style="text-align: center; border: 1px solid rgb(255, 255, 255);">
       <img src="https://th.bing.com/th/id/OIP.hnslhcBHBlNrCABxmerBCwHaJQ?pid=ImgDet&w=600&h=750&rs=1" class="img-thumbnail" alt="Foto de perfil" width="140px" height="150px")>
       
       <h4>Maria Concepcion Gonzalez Barreda</h4>
       <h6>Desarrolladora Jr. Full Stack</h6> 
   <center><hr></center>
-        <!-----Cuerpo----scrollspy-----acordion--------->
+        <!--------scrollspy-----acordion--------->
   <h4>Acerca de mi</h4>
-  <p>Un pequeña introduccion sobre mi </p>
+  <p class="sobremi">Ingeniera Bioquímica y Técnica Analísta Programadora. Soy una persona con interés 
+    en la tecnología por lo que me siento motivada en mejorar cada día mis habilidades.
+    Creo firmemente que el trabajo en equipo y la responsabilidad es la clave del éxito 
+    para lograr los objetivos y cumplir las metas. 
+    </p>
   <center><hr style="width: 700px;"></center>
-
-  <h4 style="text-align: left;">Proyectos</h4>
-    <div class="accordion" style="width: 450px;" id="accordionExample">
+  
+    <div class="row2 accordion" style="width: 450px;" id="accordionExample">
+      <h4 style="border-right: 80px;">Proyectos</h4>
         <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -51,8 +55,12 @@
                 </div>
               </div>
             </div>
-  <h4>Certificados</h4>
-            <div class="accordion-item">
+
+    </div>
+  <!---style=float: right; margin-top: -150px; margin-right: 80px;-->
+  <div class="row accordion" style="width: 450px;">
+    <h4>Certificados</h4>
+            <div class="accordion-item" id="acordion">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
                   Java Full Stack
@@ -66,7 +74,7 @@
               </div>
             </div>
             
-            <div class="accordion-item">
+            <div class="accordion-item" id="acordion2">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   Analisis de Datos
@@ -84,17 +92,21 @@
             </div>
       </div>
     <br>
-   <h4>Habilidades</h4>
-      <ul class="list-group" style="width: 400px;">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-          <li class="list-group-item">A fourth item</li>
-          <li class="list-group-item">And a fifth one</li>
+   
+   <div>
+    <h4>Habilidades Tecnicas</h4>
+      <ul class="list-group" style="width: 200px;">
+          <li class="list-group-item">Java</li>
+          <li class="list-group-item">Javascript</li>
+          <li class="list-group-item">HTML5</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">MySQL</li>
       </ul>
-  <br>
-  <br>
+    </div>
+     <br>
+      <br>
 </div>
+<!---Fin del contenedor-->
         <br> 
         <!-----Pie de pagina------>
         <div class="container"  style="text-align: center; border: 2px solid rgb(255, 255, 255);">
@@ -103,11 +115,11 @@
             <nav aria-label="breadcrumb">
            
               <ol class="breadcrumb">
-                <li class="breadcrumb-item" style="color: white;">Correo: maria.gonzalezbarrreda@gmail.com</li>
+                <li class="breadcrumb" style="color: white; text-align: center;"><strong>Correo: </strong> maria.gonzalezbarrreda@gmail.com</li>
               </ol>
               <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="https://www.linkedin.com/in/maria-c-gonz%C3%A1lez-barreda-877800245/">LinkedIn</a></li>
-                <li class="breadcrumb-item"><a href="https://github.com/Maria-Glz">Github</a></li>
+                <li style="text-align: center;" class="breadcrumb2"><a href="https://www.linkedin.com/in/maria-c-gonz%C3%A1lez-barreda-877800245/">LinkedIn</a>
+                <a>/</a> <a href="https://github.com/Maria-Glz">Github</a></li>
               </ol>
             </nav>
         </div>
